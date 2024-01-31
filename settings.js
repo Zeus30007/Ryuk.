@@ -17,16 +17,16 @@ global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
 global.botname = '𝓡𝓞𝓢𝓔' //ur bot name
-global.ownernumber = '918618971837' //ur owner number
-global.ownername = '𝕹𝖆𝖙𝖍𝖆𝖓 𓇻‎' //ur owner name
+global.ownernumber = '919606991047' //ur owner number
+global.ownername = 'Luffy' //ur owner name
 global.websitex = "https://youtu.be/-Omye-W0pTE"
 global.wagc = "https://chat.whatsapp.com/HeXOhgWhj2OEcTF1LPVzOv"
 global.themeemoji = '☠️'
 global.wm = "ORDINARYGETO Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD10' //script link
+global.botscript = 'i am ok i am fine' //script link
 global.packname = "Sticker By"
 global.author = "ORDINARGETO"
-global.creator = "× ROSE"
+global.creator = "919606991047"
 global.xprefix = '.'
 global.premium = ["918618971837"] // Premium User
 global.hituet = 0
@@ -39,8 +39,8 @@ global.antiforeignnumber = '91' //set anti foreign number country code
 global.welcome = false //welcome/left in groups
 global.anticall = false //bot blocks user when called
 global.autoswview = false //auto status/story view
-global.adminevent = false //show promote/demote message
-global.groupevent = false //show update messages in group chat
+global.adminevent = true //show promote/demote message
+global.groupevent = true //show update messages in group chat
 //msg
 global.mess = {
 	limit: 'Your limit is up!',

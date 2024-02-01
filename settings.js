@@ -17,16 +17,16 @@ global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
 global.botname = '𝓡𝓞𝓢𝓔' //ur bot name
-global.ownernumber = '919606991047' //ur owner number
+global.ownernumber = '27622590108' //ur owner number
 global.ownername = 'Luffy' //ur owner name
 global.websitex = "https://youtu.be/-Omye-W0pTE"
-global.wagc = "https://chat.whatsapp.com/HeXOhgWhj2OEcTF1LPVzOv"
+global.wagc = "https://chat.whatsapp.com/Gei7mdybqG8Hf854QUDIdV"
 global.themeemoji = '☠️'
 global.wm = "ORDINARYGETO Bot Inc."
 global.botscript = 'i am ok i am fine' //script link
 global.packname = "Sticker By"
 global.author = "ORDINARGETO"
-global.creator = "919606991047"
+global.creator = "27622590108"
 global.xprefix = '.'
 global.premium = ["918618971837"] // Premium User
 global.hituet = 0

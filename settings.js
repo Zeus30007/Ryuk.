@@ -11,7 +11,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //owmner v card
-global.instauser = "insta: Mirai.art69" //ur yt chanel name
+global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: Zeus30007" //ur github or insta name
 global.location = "Fiji, Nadi" //ur location
 

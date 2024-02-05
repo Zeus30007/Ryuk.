@@ -6587,6 +6587,7 @@ break
         case 'totalcommand': 
             replygcxeon(`Total Features of ${botname} is ${xeonfeature()}`)
         break
+            case 'Ryuk':
             case 'menu':
             case 'help': {
             let ownernya = ownernumber + '@s.whatsapp.net'
@@ -6594,65 +6595,58 @@ break
             let latensie = speed() - timestampe
             let a = db.data.users[sender]
             let me = m.sender
-            let xmenu_oh = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄${readmore} 
-│└────────────┈ ⳹
-│
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-│𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-│
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
-│𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
-│𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-│𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-│
-└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│𝗧𝗶𝗺𝗲 : ${xtime}
-│𝗗𝗮𝘁𝗲 : ${xdate}
-└┬───────────────── ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
-┌└─────────────┈ ⳹
-♱${xprefix}allmenu
-♱${xprefix}downloadmenu
-♱${xprefix}funmenu
-♱${xprefix}aimenu
-♱${xprefix}groupmenu
-♱${xprefix}ownermenu
-♱${xprefix}photooxymenu
-♱${xprefix}ephoto360menu
-♱${xprefix}animemenu
-♱${xprefix}nsfwmenu
-♱${xprefix}randomphotomenu
-♱${xprefix}randomvideomenu
-♱${xprefix}stickermenu
-♱${xprefix}databasemenu
-♱${xprefix}stalkermenu
-♱${xprefix}bugmenu
-♱${xprefix}othermenu
-└─────────────────┈ ⳹`
-if (typemenu === 'v8') {
+            let xmenu_oh = `YES? ${pushname} 
+${xeonytimewisher} ${readmore} 
+ℜ𝔶𝔲𝔨 𝔦𝔫𝔣𝔬 
+𝔖𝔭𝔢𝔢𝔡 : ${latensie.toFixed(4)} 𝔐𝔦𝔩𝔩𝔦𝔰𝔢𝔠𝔬𝔫𝔡𝔰 
+𝔗𝔦𝔪𝔢 : ${runtime(process.uptime())}
+𝔟𝔬𝔱 : ${botname}
+𝔥𝔬𝔩𝔡𝔢𝔯 : +${ownernumber}
+𝔭𝔯𝔢𝔣𝔦𝔵 :  [ ${xprefix} ]
+𝔪𝔬𝔡𝔢 : ${XeonBotInc.public ? 'Public' : `Self`}
+𝔥𝔬𝔰𝔱 : ${os.hostname()}
+𝔭𝔩𝔞𝔠𝔢 : ${os.platform()}
+𝔇𝔢𝔞𝔱𝔥𝔰 : ${Object.keys(global.db.data.users).length} kills by +${ownernumber}
+𝔎𝔦𝔩𝔩𝔰 : ${global.db.data.settings[botNumber].totalhit} kills
+𝔗𝔬𝔱𝔞𝔩 : ${Object.keys(global.db.data.chats).length} 𝔫𝔞𝔪𝔢𝔰 𝔴𝔯𝔦𝔱𝔢𝔫
+
+ 𝔜𝔬𝔲𝔯 𝔦𝔫𝔣𝔬
+𝔜𝔬𝔲𝔯 𝔫𝔞𝔪𝔢  : ${pushname}
+ 𝔜𝔬𝔲𝔯 𝔫𝔲𝔪𝔟𝔢𝔯 : +${me.split('@')[0]}
+𝔜𝔬𝔲𝔯 𝔏𝔦𝔪𝔦𝔱 : ${a.limit}
+𝔱𝔦𝔱𝔩𝔢 : ${a.title ? a.title : '-'}
+𝔰𝔢𝔯𝔦𝔞𝔩: ${a.serialNumber}
+
+ 𝔗𝔦𝔪𝔢 𝔗𝔞𝔨𝔢𝔫
+𝔗𝔦𝔪𝔢 : ${xtime}
+𝔇𝔞𝔱𝔢 : ${xdate}
+
+${xprefix}allmenu
+${xprefix}downloadmenu
+${xprefix}funmenu
+${xprefix}aimenu
+${xprefix}groupmenu
+${xprefix}ownermenu
+${xprefix}photooxymenu
+${xprefix}ephoto360menu
+${xprefix}animemenu
+${xprefix}nsfwmenu
+${xprefix}randomphotomenu
+${xprefix}randomvideomenu
+${xprefix}stickermenu
+${xprefix}databasemenu
+${xprefix}stalkermenu
+${xprefix}bugmenu
+${xprefix}othermenu
+`
+if (typemenu === 'V8') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
                         caption: xmenu_oh
                     }, {
                         quoted: m
                     })
-                } else if (typemenu === 'v2') {
+                } else if (typemenu === 'v3') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xmenu_oh,
                         contextInfo: {
@@ -6742,7 +6736,7 @@ if (typemenu === 'v8') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/DVc4n5b/8c0960e18748bd600802dccb16d6abe8.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true

@@ -6586,10 +6586,9 @@ break
         case 'totalcmd': 
         case 'totalcommand': 
             replygcxeon(`Total Features of ${botname} is ${xeonfeature()}`)
-        break
-            case 'Ryuk':
+        break          
             case 'menu':
-            case 'help': {
+            case 'ryuk': {
             let ownernya = ownernumber + '@s.whatsapp.net'
             let timestampe = speed()
             let latensie = speed() - timestampe

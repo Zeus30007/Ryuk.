@@ -168,11 +168,11 @@ try{
 			} else XeonBotInc.end(`Unknown DisconnectReason: ${reason}|${connection}`)
 		}
 		if (update.connection == "connecting" || update.receivedPendingNotifications == "false") {
-			console.log(color(`\n🌿Connecting...`, 'yellow'))
+			console.log(color(`\n🗿Connecting...`, 'yellow'))
 		}
 		if (update.connection == "open" || update.receivedPendingNotifications == "true") {
 			console.log(color(` `,'magenta'))
-            console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
+            console.log(color(`🗿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
 			await delay(1999)
             console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(color(`< ================================================== >`, 'cyan'))
@@ -182,7 +182,7 @@ try{
             console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
             console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
             await delay(1000 * 2) 
-            XeonBotInc.groupAcceptInvite("Kjm8rnDFcpb04gQNSTbW2d")
+            
 		}
 	
 } catch (err) {
@@ -222,16 +222,7 @@ XeonLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
-└┬❖ 「  @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+                xeonbody = `Greetings @${xeonName.split("@")[0]} follow the rules and ${ownername} shall spear you`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -250,16 +241,7 @@ XeonBotInc.sendMessage(anu.id,
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
-   │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
-   └───────────────┈ ⳹`
+                    xeonbody = `@${xeonName.split("@")[0]} killed using the Death note noice kill ${ownername}`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{

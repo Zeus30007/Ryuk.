@@ -27,7 +27,7 @@ global.botscript = 'https://github.com/Zeus30007/Ryuk.' //script link
 global.packname = "guess who's behind light?"
 global.author = "Ryuk"
 global.creator = "290767611710"
-global.xprefix = '.'
+global.xprefix = '#'
 global.premium = ["290767611710"] // Premium User
 global.hituet = 0
 

@@ -17,18 +17,18 @@ global.location = "Fiji, Nadi" //ur location
 
 //new
 global.botname = 'ℜ𝔶𝔲𝔨🍎' //ur bot name
-global.ownernumber = '27619450119' //ur owner number
-global.ownername = '𝔏𝔦𝔤𝔥𝔱📓' //ur owner name
+global.ownernumber = '255626967587' //ur owner number
+global.ownername = '⨺⃝𝙼𝙸𝚁𝙰𝙽 𝙵𝙾𝚇𓃦📓' //ur owner name
 global.websitex = "https://youtu.be/-Omye-W0pTE"
-global.wagc = "https://chat.whatsapp.com/J1TPHgsupsJJwrbNMa6Xfb"
+global.wagc = ""
 global.themeemoji = '📓'
 global.wm = "Light Bot Inc."
 global.botscript = 'https://github.com/Zeus30007/Ryuk.' //script link
-global.packname = "guess who's behind light?"
-global.author = "Ryuk"
+global.packname = "Hail ⨺⃝𝙼𝙸𝚁𝙰𝙽 𝙵𝙾𝚇𓃦"
+global.author = "the supreme force."
 global.creator = "290767611710"
 global.xprefix = '#'
-global.premium = ["290767611710"] // Premium User
+global.premium = ["255626967587"] // Premium User
 global.hituet = 0
 
 //bot sett
